@@ -25,8 +25,8 @@ name.
 The following environment variables provide the packaging and deployment context
 for use in CI/CD pipelines.
 
-| Variable | Description |
-| --- | --- |
+| Variable | Workflow | Description |
+| --- | --- | --- |
 | FROM_IMAGE_NAME | build | the base image name used for packaging the flow |
 | FROM_IMAGE_TAG  | build | the base image tags used for packaging the flow |
 | REGISTRY_URL    | build, deploy | the registry for storing flow images |
