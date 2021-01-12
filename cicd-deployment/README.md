@@ -25,3 +25,11 @@ name.
 The following environment variables provide the packaging and deployment context
 for use in CI/CD pipelines.
 
+| Variable | Description |
+| --- | --- |
+| FROM_IMAGE_NAME | build | the base image name used for packaging the flow |
+| FROM_IMAGE_TAG  | build | the base image tags used for packaging the flow |
+| REGISTRY_URL    | build, deploy | the registry for storing flow images |
+| BUILD_TAG       | build, deploy | the image tag to reference a specific version of the flow image |
+| PREFECT_AGEBNT_LABEL | deploy | the agent label to apply during flow registration |
+| PREFECT_PROJECT_NAME | deploy | the prefect project for registering the flow |
