@@ -31,5 +31,5 @@ for use in CI/CD pipelines.
 | FROM_IMAGE_TAG  | build | the base image tags used for packaging the flow |
 | REGISTRY_URL    | build, deploy | the registry for storing flow images |
 | BUILD_TAG       | build, deploy | the image tag to reference a specific version of the flow image |
-| PREFECT_AGEBNT_LABEL | deploy | the agent label to apply during flow registration |
+| PREFECT_AGENT_LABEL | deploy | the agent label to apply during flow registration |
 | PREFECT_PROJECT_NAME | deploy | the prefect project for registering the flow |
